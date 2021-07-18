@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+{% include './blocks/head.twig' %}
+
+<body>
+    <div class="wrapper vcard">
+        {% include './blocks/pageloader.twig' %}
+        {% include './blocks/navbar.twig' %}
+        <div class="main-content">
+            {% include './body/about.twig' %}
+            {% include './body/businesses.twig' %}
+            {% include './body/gallery.twig' %}
+            {% include './body/becomeinvestor.twig' %}
+            {% include './body/documents.twig' %}
+            {% include './body/contact.twig' %}
+        </div>
+        {% include './blocks/footer.twig' %}
+    </div>
+    {% include './blocks/scripts.twig' %}
+</body>
+
+</html>

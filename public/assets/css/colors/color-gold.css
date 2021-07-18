@@ -1,0 +1,35 @@
+.intro-slideshow:before {
+  background: #ba9c43; }
+
+.styled-section,
+.main-nav .current a:before,
+.filter li.active,
+.skills .progress,
+.btn,
+.accordion .accordion-item-heading,
+.works .works-item-link:before,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_draggerRail,
+.mfp-bg.persona {
+  background: #CFBA7A; }
+
+a,
+.main-nav .current a,
+.social-nav a:hover,
+.filter li:hover,
+.owl-pagination .owl-page,
+.btn-bordered:hover,
+.page-loader {
+  color: #CFBA7A; }
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #CFBA7A; }
+
+.filter li:after {
+  border-top-color: #CFBA7A; }

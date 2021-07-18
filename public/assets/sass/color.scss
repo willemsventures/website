@@ -1,0 +1,44 @@
+$colors: (
+	main: blue
+);
+
+.intro-slideshow:before {
+	background: darken(map-get($colors, main), 15%);
+}
+
+.styled-section,
+.main-nav .current a:before,
+.filter li.active,
+.skills .progress,
+.btn,
+.accordion .accordion-item-heading,
+.works .works-item-link:before,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-persona.mCSB_scrollTools .mCSB_draggerRail,
+.mfp-bg.persona {
+	background: map-get($colors, main);
+}
+
+a,
+.main-nav .current a,
+.social-nav a:hover,
+.filter li:hover,
+.owl-pagination .owl-page,
+.btn-bordered:hover,
+.page-loader {
+	color: map-get($colors, main);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border-color: map-get($colors, main);
+}
+
+.filter li:after {
+	border-top-color: map-get($colors, main);
+}
