@@ -4,15 +4,9 @@
 
 <body>
     <div class="wrapper vcard">
-        {% include './blocks/pageloader.twig' %}
-        {% include './blocks/navbar.twig' %}
+        {% include './blocks/pageloader.twig' %} {% include './blocks/navbar.twig' %}
         <div class="main-content">
-            {% include './body/about.twig' %}
-            {% include './body/businesses.twig' %}
-            {% include './body/gallery.twig' %}
-            {% include './body/becomeinvestor.twig' %}
-            {% include './body/documents.twig' %}
-            {% include './body/contact.twig' %}
+            {% include './body/about.twig' %} {% include './body/businesses.twig' %} {% include './body/gallery.twig' %} {% include './body/contact.twig' %}
         </div>
         {% include './blocks/footer.twig' %}
     </div>
